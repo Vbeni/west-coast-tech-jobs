@@ -2,6 +2,7 @@
 
 Welcome to the West Coast Tech Analysis project. Our mission is to provide an in-depth and comprehensive visualization of the tech job market on the West Coast. Dive into job distributions, technology preferences, and insightful salary trends.
 
+<img width="1087" alt="Screenshot 2023-08-06 at 4 06 09 PM" src="https://github.com/Vbeni/west-coast-tech-jobs/assets/123101303/571f103d-7398-49af-8924-6177a061fd64">
 
 ## Table of Contents
 
