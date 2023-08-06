@@ -1,71 +1,62 @@
-# Getting Started with Create React App
+# West Coast Tech Analysis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the West Coast Tech Analysis project. Our mission is to provide an in-depth and comprehensive visualization of the tech job market on the West Coast. Dive into job distributions, technology preferences, and insightful salary trends.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Future Features](#future-features)
+- [Potential Data Sources](#potential-data-sources)
+- [Backend Integration](#backend-integration)
+- [Getting Started](#getting-started)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Our core framework for building the user interface components.
+- **React Router v6**: For a seamless and efficient client-side routing experience.
+- **Leaflet**: A leading open-source library for interactive maps. Used in our Job Distribution Map feature.
+- **Chart.js 2**: For creating beautiful and responsive data visualizations, particularly in our Salary Trends section.
+- **Bootstrap**: For a modern and responsive design.
+- **Django**: Our chosen backend framework, which we'll integrate for data processing, authentication, and API handling.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Job Distribution Map**: An interactive map visualizing the spread of tech jobs across the West Coast.
+2. **Technology Breakdown**: Insights into popular technologies and their market demand.
+3. **Salary Trends**: An extensive chart providing a glimpse into salary trends over time.
 
-### `npm run build`
+## Future Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Company Analysis**: A deeper look into hiring companies, their reputation, and more.
+2. **Skill Demand Over Time**: Analyze the popularity trajectory of specific tech skills.
+3. **User Accounts**: Allow personalized experiences by letting users bookmark specific data views or trends.
+4. **Interactive Filters**: Empower users with the ability to slice and dice the data based on their interests.
+5. **Integration with Real-Time Data**: Ensuring our data is fresh by pulling from contemporary job postings and trends.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Potential Data Sources
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To stay current, we're considering various APIs and data sources:
 
-### `npm run eject`
+1. **GitHub Jobs**: A diverse source of tech job postings.
+2. **Stack Overflow Jobs API**: Always a dependable source for tech jobs.
+3. **Glassdoor API**: Providing job listings coupled with company reviews and salary data.
+4. **Payscale API**: For a deep dive into salary data and trends.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Backend Integration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Plans are underway to fuse a Django backend. This will handle data processing, user authentication, and various other backend operations. Django's robustness guarantees our platform's scalability and performance.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+1. Clone this repository.
+2. Shift to the project directory and execute `npm install`.
+3. Fire up the development server using `npm start`.
+4. Visit `http://localhost:3000` on your browser to access the app..
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# west-coast-tech-jobs
+[MIT](https://choosealicense.com/licenses/mit/)
